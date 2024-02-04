@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.container {
+    width:100%;
+    float:left;
+    display:flex;
+    justify-content: center;
+}
+
+.interface {
+    box-sizing: border-box;
+    padding:10px;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.day {
+    display:flex;
+    flex: 1;
+    justify-content: left;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+}
+
+.day::-webkit-scrollbar {
+    display: none;
+}
+
+.hour {
+    min-width:75px;
+    box-sizing: border-box;
+}
